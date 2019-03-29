@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--<com.caik13.scheduletable.MonthView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    <com.caik13.scheduletableview.ScheduleTable
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:week_count="1"
+        app:leftbar_background_color="#eeeeee"
+        app:leftbar_border_color="#ff0000"
+        app:weekbar_background_color="#eeeeee"
+        app:weekbar_border_color="@color/colorAccent"
+        app:weekbar_text_color="@color/colorPrimary"
+        />
+
+</LinearLayout>

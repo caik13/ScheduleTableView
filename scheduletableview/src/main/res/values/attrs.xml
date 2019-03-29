@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScheduleTable">
+        <attr name="week_count" format="integer" />
+        <attr name="weekbar_background_color" format="color" />
+        <attr name="weekbar_text_color" format="color" />
+        <attr name="weekbar_text_size" format="dimension" />
+        <attr name="weekbar_border_with" format="dimension" />
+        <attr name="weekbar_border_color" format="color" />
+        <attr name="weekbar_item_with" format="dimension" />
+        <attr name="weekbar_item_height" format="dimension" />
+
+        <attr name="leftbar_item_with" format="dimension" />
+        <!--<attr name="leftbar_item_height" format="dimension"/>-->
+        <attr name="leftbar_text_color" format="color" />
+        <attr name="leftbar_text_size" format="dimension" />
+        <attr name="leftbar_border_with" format="dimension" />
+        <attr name="leftbar_border_color" format="color" />
+        <attr name="leftbar_background_color" format="color" />
+
+        <attr name="weekday_item_with" format="dimension" />
+        <attr name="weekday_item_height" format="dimension" />
+        <attr name="weekday_background_color" format="color" />
+        <attr name="weekday_text_color" format="color" />
+        <attr name="weekday_text_size" format="dimension" />
+        <attr name="weekday_border_with" format="dimension" />
+        <attr name="weekday_border_color" format="color" />
+
+        <attr name="scheme_background_color" format="color" />
+        <attr name="scheme_text_color" format="color" />
+        <attr name="scheme_text_size" format="dimension" />
+        <attr name="scheme_border_with" format="dimension" />
+        <attr name="scheme_border_color" format="color" />
+
+
+    </declare-styleable>
+</resources>
